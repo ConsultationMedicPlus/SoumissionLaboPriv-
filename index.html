@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Test Cost Estimator</title>
+    <link rel="stylesheet" href="estimator.css">
+</head>
+<body>
+
+    <div id="lab-estimator">
+        <!-- Logo -->
+        <div id="logo-container">
+            <img src="logo.png" alt="CDL Laboratories Logo" id="clinic-logo">
+        </div>
+        <h1 id="clinic-name"></h1>
+        <p id="disclaimer"></p>
+
+        <!-- Top half: Panels -->
+        <div class="top-half" id="panel-container"></div>
+
+        <hr>
+
+        <!-- Bottom half: Categories -->
+        <div class="bottom-half" id="category-container"></div>
+
+        <hr>
+
+        <h2>Estimated Total: <span id="total">$0.00</span></h2>
+
+        <div id="insurance-block">
+            Insurance coverage (%):
+            <input type="number" id="insurancePercent" value="0" min="0" max="100">
+        </div>
+
+        <h3>
+            Patient Pays: <span id="patientTotal">$0.00</span>
+        </h3>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="estimator.js"></script>
+</body>
+</html>

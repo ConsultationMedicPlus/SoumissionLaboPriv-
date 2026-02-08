@@ -1,0 +1,160 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#logo-container {
+    text-align: center; /* center logo above title */
+    margin-bottom: 0px; /* spacing between logo and title */
+    width: 100%; /* container takes full width */
+    overflow: hidden; /* prevents logo from overflowing */
+}
+
+#clinic-logo {
+    max-width: 400px; /* never exceed container width */
+    width: 400px; /* desired max size */
+    height: auto; /* maintain aspect ratio */
+    display: inline-block;
+    margin: 0; 
+}
+
+#lab-estimator h1 {
+    font-size: 1.8em; /* make it larger */
+    font-weight: bold; /* bold heading */
+    margin-bottom: 12px; /* spacing under title */
+    color: #222; /* dark for contrast */
+    display: block; /* ensure it shows */
+}
+
+
+
+/* Top half: panels */
+.top-half {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* changed from 3 to 2 columns for wider panels */
+    gap: 25px; /* slightly larger gap */
+    margin-bottom: 20px;
+}
+
+.panel {
+    background: #f7f7f7;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.panel-description {
+    font-size: 0.85em;
+    font-weight: lighter;
+    color: #555;
+    margin: 6px 0 0 24px;
+}
+
+/* Bottom half: categories */
+.bottom-half {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* changed from 4 to 3 columns for wider category columns */
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.category {
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+.category-test {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+/* Insurance / Discount Box */
+#insurance-block {
+    background: #f7f7f7; /* same as panels */
+    padding: 15px; /* match panel padding */
+    border-radius: 6px; /* match panel radius */
+    border: 1px solid #ddd; /* same as panel border */
+    margin-top: 20px; /* match spacing between sections */
+    display: block; /* full-width like panels */
+}
+
+    #insurance-block input {
+        width: 60px; /* compact, fits nicely */
+        margin-left: 10px; /* slight spacing from label */
+        padding: 4px 6px; /* match panel input feel */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 0.9em; /* match panel text size */
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #insurance-block {
+        width: 100%;
+        padding: 12px;
+    }
+
+        #insurance-block input {
+            width: 80px;
+            margin-left: 0;
+            margin-top: 6px;
+            display: block;
+        }
+}
+/* Totals Section */
+.totals-section h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+/* Insurance box */
+#insurance-block {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    font-size: 0.95em;
+}
+
+    /* Input styling */
+    #insurance-block input {
+        width: 60px;
+        margin-left: 10px;
+        padding: 4px 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+/* Patient pays box */
+#patient-pay-block {
+    background: #f7f7f7; /* same as panels */
+    padding: 15px; /* match panel padding */
+    border-radius: 6px; /* match panel radius */
+    border: 1px solid #ddd; /* same as panels */
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+
