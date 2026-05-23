@@ -204,6 +204,12 @@
                 { code: "RUBE", name: "Rubella IgG", price: 95 },
                 { code: "SYPEIA", name: "Syphilis", price: 80 }
             ]
+        },
+        {
+            name: "Stool",
+            tests: [
+                {code: "QIFOB", name:"Occ. Blood / RSOSI", price: 110}
+            ]
         }
 
     ]
