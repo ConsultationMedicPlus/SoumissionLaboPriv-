@@ -88,6 +88,7 @@
                 { code: "TBIL", name: "Bilirubin, total", price: 52 },
                 { code: "DBIL", name: "Bilirubin, direct", price: 52 },
                 { code: "CA", name: "Calcium", price: 52 },
+                { code: "CAIP", name: "Calcium Ionise", price: 83},
                 { code: "CHOL", name: "Cholesterol, total", price: 52 },
                 { code: "HDL", name: "Cholesterol, HDL", price: 52 },
                 { code: "CK", name: "CK", price: 70 },
@@ -103,6 +104,7 @@
                 { code: "HELI", name: "H. Pylori Serum", price: 108 },
                 { code: "HPBT", name: "H. Pylori Breath", price: 200 },
                 { code: "LD", name: "Lactate dehydrogenase", price: 69 },
+                { code: "LASE", name: "Lipase", price: 60},
                 { code: "MG", name: "Magnesium", price: 60 },
                 { code: "PO4", name: "PO4 inorganic", price: 52 },
                 { code: "SPEP", name: "Protein electrophoresis", price: 120 },
@@ -117,6 +119,7 @@
                 { code: "THAB", name: "Antithyroid antibodies", price: 120 },
                 { code: "BHCG", name: "β-HCG, Quantitative", price: 83 },
                 { code: "PREG", name: "β-HCG, Qualitative", price: 80 },
+                { code: "NTPROBNP", name: "NT-Pro-BNP", price: 200 },
                 { code: "C125", name: "Ca-125", price: 110 },
                 { code: "SCORT", name: "Cortisol AM/PM", price: 83 },
                 { code: "DH-S", name: "DHEA-S", price: 110 },
@@ -193,6 +196,14 @@
             name: "Serology",
             tests: [
                 { code: "ANA", name: "ANA", price: 95 },
+                { code: "ASA", name: "Anti-muscles Lise", price: 105 },
+                { code: "ALKM", name: "Anti-LKM", price: 115 },
+                { code: "AMA", name: "Anti-mitochondria", price: 105 },
+                { code: "A1AT", name: "Alpha-1-antitrypsin", price: 100 },
+                { code: "AFP", name: "Alphafetoprotein", price: 85 },
+                { code: "TRSG", name: "Anti-TTG", price: 95 },
+                { code: "IGA", name: "IgA", price: 80 },
+                { code: "CUBP", name: "Ceruloplasmin", price: 85 },
                 { code: "HAVM", name: "HAV IgM", price: 105 },
                 { code: "HAVG", name: "HAV IgG", price: 135 },
                 { code: "HBAB", name: "HBsAb", price: 88 },
@@ -209,6 +220,12 @@
             name: "Stool",
             tests: [
                 {code: "QIFOB", name:"Occ. Blood / RSOSI", price: 110}
+            ]
+        },
+            {
+            name: "Urine 24h",
+            tests: [
+                {code: "CA/U", name:"Calcium Urin 24h", price: 55}
             ]
         }
 
