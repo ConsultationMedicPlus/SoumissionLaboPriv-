@@ -219,7 +219,9 @@
         {
             name: "Stool",
             tests: [
-                {code: "QIFOB", name:"Occ. Blood / RSOSI", price: 110}
+                {code: "QIFOB", name:"Occ. Blood / RSOSI", price: 110},
+                {code: "HELAG", name:"H. Pylori Selles", price: 140}
+
             ]
         },
             {
